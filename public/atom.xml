@@ -4,16 +4,176 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hugo Theme MemE</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2025-02-22T20:19:43&#43;08:00</updated>
-    <id>http://localhost:8080/</id>
-    <link rel="alternate" type="text/html" href="http://localhost:8080/" />
-    <link rel="self" type="application/atom&#43;xml" href="http://localhost:8080/atom.xml" />
+    <updated>2025-02-22T21:50:06&#43;08:00</updated>
+    <id>https://example.com/</id>
+    <link rel="alternate" type="text/html" href="https://example.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
     <author>
-            <name>reuixiy</name>
-            <uri>http://localhost:8080/</uri>
+            <name>zchen</name>
+            <uri>https://example.com/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>cz_1995@163.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.144.1">Hugo</generator>
+        <entry>
+            <title type="text">Derivatives of matrix functions</title>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/" />
+            <id>https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/</id>
+            <updated>2025-02-22T21:44:32&#43;08:00</updated>
+            <published>2025-02-22T21:09:00&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://example.com/</uri>
+                    <email>cz_1995@163.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;The derivative of trace or determinant with respect to the matrix is vital when calculating the derivate of lagrangian in matrix optimization problems and finding the  maximum likelihood estimation of multivariate gaussian distribution.&lt;/p&gt;
+&lt;h2 id=&#34;matrix-valued-derivative&#34;&gt;Matrix-Valued Derivative&lt;/h2&gt;
+&lt;p&gt;Let $f$ be a scaler function of a matrix $X \in \mathbb{R}^{n\times n}$, the derivative of it with respect to $X$ can be defined as following
+$$
+\left(\frac{\partial f}{\partial X}\right)_{ij} = \frac{\partial f}{\partial X_{ij}}
+$$
+That is to say, the derivative is a matrix, the element of which is the derivative with respect to the element of matrix $X$.&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;p style=&#34;text-indent:0&#34;&gt;&lt;span class=&#34;drop-cap&#34;&gt;T&lt;/span&gt;he derivative of trace or determinant with respect to the matrix is vital when calculating the derivate of lagrangian in matrix optimization problems and finding the  maximum likelihood estimation of multivariate gaussian distribution.&lt;/p&gt;
+&lt;h2 id=&#34;matrix-valued-derivative&#34;&gt;&lt;a href=&#34;https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/#matrix-valued-derivative&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;Matrix-Valued Derivative&lt;/h2&gt;
+&lt;p&gt;Let $f$ be a scaler function of a matrix $X \in \mathbb{R}^{n\times n}$, the derivative of it with respect to $X$ can be defined as following
+$$
+\left(\frac{\partial f}{\partial X}\right)_{ij} = \frac{\partial f}{\partial X_{ij}}
+$$
+That is to say, the derivative is a matrix, the element of which is the derivative with respect to the element of matrix $X$.&lt;/p&gt;
+&lt;h2 id=&#34;derivative-of-trace&#34;&gt;&lt;a href=&#34;https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/#derivative-of-trace&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;Derivative of Trace&lt;/h2&gt;
+&lt;p&gt;Now, let $f$ be the trace of $X$
+$$
+f(X) = tr(X) = \sum_{i}X_{ii}
+$$
+Then, it&amp;rsquo;s easy to find that
+$$
+\frac{\partial f}{\partial X_{ii}} = 1
+$$
+We can write in the matrix form
+$$
+\frac{\partial tr(X)}{\partial X} = I
+$$
+Moreover,
+$$
+f(X) = tr(AXB) = \sum_{ijk}A_{ij}X_{jk}B_{ki}
+$$
+Then
+$$
+\frac{\partial f}{\partial X_{jk}} = \sum_{i}A_{ij}B_{ki} = (BA)_{kj} = (A^TB^T)_{jk}
+$$
+So that
+$$
+\frac{\partial tr(AXB)}{\partial X} = A^TB^T
+$$
+Similarly, if $f$ be the trace of square of the matrix, then
+$$
+f(X) = tr(X^2) = \sum_{i}(X^2)_{ii} = \sum_{ik}X_{ik}X_{ki} = \sum_{i}X^2_{ii} + \sum_{k&amp;gt;i}2X_{ik}X_{ki}
+$$
+so
+$$
+\frac{\partial tr(X^2)}{\partial X_{ik}} = 2X_{ki}
+$$
+Thus, we have
+$$
+\frac{\partial tr(X^2)}{\partial X} = 2X^T
+$$&lt;/p&gt;
+&lt;h2 id=&#34;derivative-of-determinant&#34;&gt;&lt;a href=&#34;https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/#derivative-of-determinant&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;Derivative of Determinant&lt;/h2&gt;
+&lt;p&gt;The determinant of a matrix is complicated to expressed as the summation of its elements,  however, from the Laplace expansion, also known as cofactor expansion, we have
+$$
+det(X) = \sum_{j}(-1)^{i+j}X_{ij}M_{ij}
+$$
+so
+$$
+\frac{\partial det(X)}{\partial X_{ij}} = (-1)^{i+j}M_{ij} = (adj(A)^T)_{ij}
+$$
+where $adj(A)$ is the adjugate matrix of $A$, so
+$$
+\frac{\partial det(X)}{\partial X} = adj(A)^T = det(A^T)A^{-T} = det(A)A^{-T}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;maximum-likelihood-estimation&#34;&gt;&lt;a href=&#34;https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/#maximum-likelihood-estimation&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;Maximum Likelihood Estimation&lt;/h2&gt;
+&lt;p&gt;Given a data set ${x_1, x_2, \cdots, x_n}$ sampled from a multivariate Gaussian distribution. We want to estimate the parameters of the distribution via maximum likelihood.&lt;/p&gt;
+&lt;p&gt;The probability density function of multivariate Gaussian distribution is
+$$
+f(x; \mu, \Sigma) = \frac{1}{(2\pi)^{d/2}|\Sigma|^{1/2}}e^{\frac{-(x-\mu)\Sigma^{-1}(x-\mu)^T}{2}}
+$$
+We form the log likelihood function by taking the logarithm of product of $n$ Gaussian distributions:
+$$
+l(x; \mu, \Sigma) = -\frac{nd}{2}\log{2\pi} - \frac{n}{2}\log{|\Sigma|} - \frac{1}{2}\prod_{i=1}^n(x_i-\mu)\Sigma^{-1}(x_i-\mu)^T
+$$
+We need to take the derivative with respect to $\Sigma$ an set to zero.&lt;/p&gt;
+&lt;p&gt;As previously mentioned,
+$$
+\frac{\partial \log{|\Sigma|}}{\partial \Sigma^{-1}} = \frac{1}{|\Sigma|}\frac{\partial |\Sigma|}{\partial \Sigma^{-1}} = \frac{1}{|\Sigma|}\frac{\partial}{\partial \Sigma^{-1}}\frac{1}{|\Sigma^{-1}|} = -\Sigma^T
+$$
+and
+$$
+\frac{\partial x\Sigma x^T}{\partial \Sigma} = \frac{\partial tr( x\Sigma x^T)}{\partial \Sigma} = \frac{\partial tr( xx^T\Sigma)}{\partial \Sigma} = (xx^T)^T=xx^T
+$$
+so
+$$
+\frac{\partial l}{\partial \Sigma^{-1}} = \frac{n}{2}\Sigma^T - \frac{1}{2}\prod_{i=1}^n(x_i-\mu)(x_i-\mu)^T
+$$
+Finally, setting to zero yield the maximum likelihood estimator:
+$$
+\Sigma_{ML} = \frac{1}{n}\prod_{i=1}^n(x_i-\mu)(x_i-\mu)^T
+$$&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;&lt;a href=&#34;https://example.com/posts/derivatives-of-the-trace-and-determinant-of-matrics/#reference&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://paulklein.ca/newsite/teaching/matrix%20calculus.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matrix Calculus - Notes on the Derivative of a Trace&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Laplace_expansion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Laplace expansion - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Adjugate_matrix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adjugate matrix - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://people.eecs.berkeley.edu/~jordan/courses/260-spring10/other-readings/chapter13.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Multivariate Gaussian&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/categories/calculus/" term="Calculus" label="Calculus" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/calculus/" term="Calculus" label="Calculus" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
 </feed>
